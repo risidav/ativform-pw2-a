@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 0.6vw;
+    height: 0.6vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #090909;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+body 
+{
+    background-color: #1a1b20;
+    font-family: 'lato', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container-main
+{
+    background-color: #fff;
+
+    min-height: 100vh;
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
